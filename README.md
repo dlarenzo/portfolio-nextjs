@@ -8,6 +8,9 @@ Created branch: header-nav
 Created branch: about-me
 Created branch: my-projects
 Created branch: email-section
+Note: video 1:43:22 where you put in information about the FROM EMAIL
+Note: video 1:48:25 email check message sent in EmailSection line 35
+Note: video 1:49:09 email check message sent in EmailSection follow video
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
