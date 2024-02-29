@@ -9,6 +9,7 @@ Created branch: about-me
 Created branch: my-projects
 Created branch: email-section
 Created branch: animations
+Merged branch: merged animations to main
 
 ### ANIMATIONS AND ANIMATED NUMBERS
 
