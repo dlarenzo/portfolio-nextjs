@@ -7,55 +7,57 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    title: "Apple Store",
+    description: "Replica of Apple Store using HTML, JavaScript and CSS",
+    image: "/images/projects/apple2.png",
+    tag: ["All", "Web", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Photography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    title: "Beats by Dre",
+    description: "Replica of Beats by Dre using HTML, JavaScript and CSS",
+    image: "/images/projects/beats.png",
+    tag: ["All", "Web", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-Commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    title: "Guarda",
+    description:
+      "Security company website created using HTML, JavaScript and CSS",
+    image: "/images/projects/guarda.png",
+    tag: ["All", "Web", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    title: "FreshChef",
+    description:
+      "Food delivery service website created using HTML, JavaScript and CSS",
+    image: "/images/projects/freshChef.png",
+    tag: ["All", "Web", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Project 5 description",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+    title: "Xbox",
+    description: "Example of an email template created using HTML and CSS",
+    image: "/images/projects/Xbox2.png",
+    tag: ["All", "Email"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 6,
-    title: "Fullstack Roadmap",
-    description: "Project 6 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    title: "Target",
+    description: "Example of an email template created using HTML and CSS",
+    image: "/images/projects/target2.png",
+    tag: ["All", "Email"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -99,6 +101,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Email"
+          isSelected={tag === "Email"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

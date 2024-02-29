@@ -14,17 +14,18 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-7 place-self-center text-center sm:text-left justify-self"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
+            LaRenzo DeGraff <br />
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "LaRenzo DeGraff",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
                 "A Web Developer",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                "An Email Developer",
                 1000,
                 "A Mobile Developer",
                 1000,
@@ -37,8 +38,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolar sit amet consectetur adipisicing elit. Other stuff
-            otherstuff VOluptatum.
+            Technology has always been a passion of mine and I love to create
+            and implement projects focusing on beautiful and functional designs.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
