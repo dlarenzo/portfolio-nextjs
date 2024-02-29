@@ -10,6 +10,7 @@ Created branch: my-projects
 Created branch: email-section
 Created branch: animations
 Merged branch: merged animations to main
+Created folder: created build folder (npm run build)
 
 ### ANIMATIONS AND ANIMATED NUMBERS
 
